@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/tasty-pepperoni-pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height: 100vh;
+}
+
+.orderlist {
+    padding: 50px;
+    text-align: center;
+}
+
+.heading {
+    font-family: cursive;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.table {
+    color: white;
+    text-align: center;
+}
+
+.table td,
+.table th {
+    vertical-align: inherit !important;
+}
+
+.page {
+    width: 20%;
+    margin: auto;
+}

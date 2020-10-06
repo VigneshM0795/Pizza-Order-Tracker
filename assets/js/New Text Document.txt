@@ -1,0 +1,8 @@
+changeorder() {
+            var arr = ["Order Received", "Preparing", "Ready To serve"];
+            var i = 0;
+            $(document).on('click', '#change1', function () {
+                i++;
+                $('#order1').text(arr[i % arr.length]);
+                return false;
+            });
